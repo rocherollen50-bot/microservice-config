@@ -1,0 +1,17 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: payment-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/microservice
+    username: root
+    password: joshua625
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
